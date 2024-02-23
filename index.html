@@ -1,0 +1,144 @@
+<html>
+  <body>
+    <main>
+      <link rel="stylesheet" href="stylesheet.css" />
+      <link rel="stylesheet" href="script.JS" />
+      <section class="LogoSection">
+        <!--Section for the Top Bar-->
+        <img
+          id="TigroLogo"
+          src="Image.file/cad.png"
+          height="100"
+          width="150px"
+        />
+        <p>Web Made By Amour Tigro/ CARTI0</p>
+      </section>
+      <h1>CAT PHOTOTS APP</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>
+          See more
+          <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>
+          in our gallery.
+        </p>
+        <a href="https://freecatphotoapp.com"
+          ><img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+            alt="A cute orange cat lying on its back."
+        /></a>
+      </section>
+      <section>
+        <h2>
+          Cat Lists
+          <hr />
+        </h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+            alt="A slice of lasagna on a plate."
+          />
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>
+        </figure>
+        <h3>
+          Top 3 things cats hate:
+          <hr />
+        </h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+            alt="Five cats looking around a field."
+          />
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>
+          Cat Form
+          <hr />
+        </h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label
+              ><input
+                id="indoor"
+                type="radio"
+                name="indoor-outdoor"
+                value="indoor"
+              />
+              Indoor</label
+            >
+
+            <label
+              ><input
+                id="outdoor"
+                type="radio"
+                name="indoor-outdoor"
+                value="outdoor"
+              />
+              Outdoor</label
+            >
+
+            <legend>
+              Is your cat diagnose with any of this <b>diseases?</b>
+            </legend>
+            <label>
+              <input
+                id="RoundWorms"
+                type="radio"
+                name="RoundWorms-Rabies-Toxoplasmosis"
+                value="RoundWorms"
+              />RoundWorms</label
+            >
+
+            <label>
+              <input
+                id="Rabies"
+                type="radio"
+                name="RoundWorms-Rabies-Toxoplasmosis"
+                value="Rabies"
+              />Rabies</label
+            >
+
+            <label>
+              <input
+                id="Toxoplasmosis"
+                type="radio"
+                name="RoundWorms-Rabies-Toxoplasmosis"
+                value="Toxoplasmosis"
+              />Toxoplasmosis</label
+            >
+            <legend>What colour fur is your cat?</legend>
+            <input
+              type="text"
+              name="Cat Fur Text"
+              placeholder="Fur Color"
+              required
+            />
+          </fieldset>
+          <!--End of the Form section fieldset-->
+
+          <input
+            type="text"
+            name="catphotourl"
+            placeholder="Cat Image"
+            required
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

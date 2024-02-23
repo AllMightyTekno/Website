@@ -1,0 +1,26 @@
+section.LogoSection img{
+    width: 100px;
+    border-radius:  50px;
+    
+}
+
+section.LogoSection p{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+body{
+background-color: peachpuff;
+margin: 200px;
+}
+
+
+section img{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 200px;
+    border-radius: 50px;
+}
+
+h1 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
