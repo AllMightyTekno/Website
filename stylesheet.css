@@ -15,7 +15,7 @@ img.Logo{
     position: relative;
 }
 
-section.TopPageSection button{
+section.TopPageSection input{
     background-color: blue;
     width: 100px;
     border-radius: 50px;
