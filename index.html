@@ -1,27 +1,34 @@
 <html>
   <body>
+    <img class="Logo"
+    id="TigroLogo"
+    src="Image.file/cad.png"
+    height="100"
+    width="150px"
+  />
+    <section class="TopPageSection">
+      <button>
+        Home
+      </button>
+      <button>
+        Contact Me
+      </button>
+      <button>
+        About Me
+      </button>
+      <button>
+        Why Cats?
+      </button>
+  </section>
     <main>
       <link rel="stylesheet" href="stylesheet.css" />
-      <link rel="stylesheet" href="script.JS" />
-      <section class="LogoSection">
+      <section class="HomePage">
         <!--Section for the Top Bar-->
-        <img
-          id="TigroLogo"
-          src="Image.file/cad.png"
-          height="100"
-          width="150px"
-        />
-        <p>Web Made By Amour Tigro/ CARTI0</p>
-      </section>
-      <h1>CAT PHOTOTS APP</h1>
+  
+        <h1>Cat application Form</h1>
       <section>
-        <h2>Cat Photos</h2>
         <!-- TODO: Add link to cat photos -->
-        <p>
-          See more
-          <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>
-          in our gallery.
-        </p>
+       
         <a href="https://freecatphotoapp.com"
           ><img
             src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
@@ -30,7 +37,7 @@
       </section>
       <section>
         <h2>
-          Cat Lists
+          About Cats
           <hr />
         </h2>
         <h3>Things cats love:</h3>
@@ -127,16 +134,12 @@
               placeholder="Fur Color"
               required
             />
+            <legend>When was your cat born/When did you get it</legend>
+            <input type="date" name="Cat Birth" placeholder="" required />
           </fieldset>
           <!--End of the Form section fieldset-->
 
-          <input
-            type="text"
-            name="catphotourl"
-            placeholder="Cat Image"
-            required
-          />
-          <button type="submit">Submit</button>
+          <button type="submit">I am done with the form</button>
         </form>
       </section>
     </main>

@@ -1,21 +1,62 @@
-section.LogoSection img{
+section.HomePage img{
+    width: 200px;
+    border-radius:  100px;
+    height: 200px;
+    border: #880303 6px outset;
+}
+
+img.Logo{
     width: 100px;
-    border-radius:  50px;
-    
+    border-radius:  100px;
+    height: 100px;
+    border: #128cff 6px outset;
+    bottom: 200px;
+    right: 180px;
+    position: relative;
 }
 
-section.LogoSection p{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+section.TopPageSection button{
+    background-color: blue;
+    width: 100px;
+    border-radius: 50px;
+    color: white;
+    height: 35px;        
+    margin-top: 50%;
+    margin: 4px auto;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    bottom: 300px;
+    left: 500px;
 }
 
+section h2{
+    color: blue;
+}
 
+section h3{
+    color: blue;
+}
 
+section li{
+    color: white;
+    font-size: 17px;
+}
 
+section legend{
+    color: white;
+}
+
+section label{
+color: aqua;
+}
 body{
-background-color: peachpuff;
+background-color: #232527;
 margin: 200px;
+display: block;
+position:absolute;
+background-image: linear-gradient(to right,white, rgb(62, 62, 232) 2%,rgb(79, 79, 241), white);
 }
-
 
 section img{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -23,4 +64,16 @@ section img{
     border-radius: 50px;
 }
 
-h1 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: wheat;
+}
+
+
+form button{
+    background-color: rgb(207, 204, 207);
+    width: 200px;
+    border-radius: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 30px;
+}
