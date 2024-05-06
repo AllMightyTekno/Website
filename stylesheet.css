@@ -17,6 +17,7 @@ img.Logo{
 
 
 .MainNavBar input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: blue;
     width: 100px;
     border-radius: 50px;
@@ -72,11 +73,12 @@ color: aqua;
 }
 
 body{
+    color: yellow;
 background-color: #232527;
 margin: 200px;
 display: block;
 position:absolute;
-background-image: linear-gradient(to right,white, rgb(62, 62, 232) 2%,rgb(79, 79, 241), white);
+background-image: linear-gradient(to right,rgb(61, 57, 57), rgb(62, 62, 232) 2%,rgb(79, 79, 241), white);
 }
 
 section img{
@@ -101,7 +103,7 @@ form button{
     background-color: rgb(207, 204, 207);
     width: 200px;
     border-radius: 100px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 30px;
     background-color: aqua;
     height: 25px;
@@ -115,6 +117,7 @@ form button:hover{
 }
 
 .RegisterClass input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #232527;
     width: 140px;
     border-radius: 50px;
@@ -132,4 +135,5 @@ form button:hover{
 .RegisterClass input:hover{
     background-color: wheat;
     color: black;
+    height: 45px;
 }
