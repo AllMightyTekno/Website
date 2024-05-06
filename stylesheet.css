@@ -15,7 +15,8 @@ img.Logo{
     position: relative;
 }
 
-section.TopPageSection input{
+
+.MainNavBar input{
     background-color: blue;
     width: 100px;
     border-radius: 50px;
@@ -28,14 +29,33 @@ section.TopPageSection input{
     position: relative;
     bottom: 300px;
     left: 500px;
+    
+}
+
+.MainNavBar input:hover{
+    background-color: green;
+    height: 50px;
 }
 
 section h2{
-    color: blue;
+    color: white;
+    background-color: #232527;
+    width: 500px;
+    border-radius: px;
+    text-align: center;
+    position: relative;
+    right: 200px;
 }
 
 section h3{
-    color: blue;
+    color: white;
+
+    background-color: #232527;
+    width: 500px;
+    border-radius: px;
+    text-align: center;
+    position: relative;
+    right: 200px;
 }
 
 section li{
@@ -50,6 +70,7 @@ section legend{
 section label{
 color: aqua;
 }
+
 body{
 background-color: #232527;
 margin: 200px;
@@ -66,7 +87,13 @@ section img{
 
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: wheat;
+    color: white;
+    background-color: #232527;
+    width: 500px;
+    border-radius: px;
+    text-align: center;
+    position: relative;
+    right: 200px;
 }
 
 
@@ -74,6 +101,35 @@ form button{
     background-color: rgb(207, 204, 207);
     width: 200px;
     border-radius: 100px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 30px;
+    background-color: aqua;
+    height: 25px;
+}
+
+form button:hover{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    height: 50px;
+}
+
+.RegisterClass input{
+    background-color: #232527;
+    width: 140px;
+    border-radius: 50px;
+    color: white;
+    height: 35px;        
+    margin-top: 50%;
+    margin: 4px auto;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    bottom: 350px;
+    right: 65px;
+}
+
+.RegisterClass input:hover{
+    background-color: wheat;
+    color: black;
 }
